@@ -36,4 +36,10 @@ Gets transformed by the lexer into
 
 ## 1.2 Defining our tokens
 
+- Tokens usually represent things like: 
+    - numbers
+    - variable names (identifiers)
+    - keywords (let, fn, if)
+    - special characters (parenthesis, semicolons, equal sign)
 
+See `src/token/token.go` to see the list of tokens.
