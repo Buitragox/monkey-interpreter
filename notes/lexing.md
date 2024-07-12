@@ -1,6 +1,6 @@
 # Lexing
 
-## 1.1 Lexical Analysis
+## 1.1 Lexical analysis
 
 - Lexical analysis (lexing) -> turn source code into tokens
 
@@ -43,3 +43,10 @@ Gets transformed by the lexer into
     - special characters (parenthesis, semicolons, equal sign)
 
 See `src/token/token.go` to see the list of tokens.
+
+
+## 1.3 The lexer
+
+- The lexer takes source code as input and outputs the tokens that represent the source code.
+
+- The lexer will only support ASCII characters for simplicity.
